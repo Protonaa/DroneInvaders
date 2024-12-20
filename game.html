@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    
+    <!-- Menu -->
+    <div id="menu" class="hidden">
+        <h2>Game Menu</h2>
+        <p><strong>Instructions:</strong></p>
+        <p>Use the left and right arrow keys (or 'A' and 'D') to move the spaceship. Press spacebar to shoot!</p>
+        <p><strong>CA:</strong> <span id="ca"></span></p>
+        <p><strong>Keys:</strong></p>
+        <ul>
+            <li>Arrow Left / 'A' - Move Left</li>
+            <li>Arrow Right / 'D' - Move Right</li>
+            <li>Spacebar - Shoot</li>
+        </ul>
+        <button id="restartBtn">Restart Game</button>
+        <button id="twitterBtn">Share on Twitter</button>
+    </div>
+
+    <!-- End Screen -->
+    <div id="endScreen" class="hidden">
+        <h2>Game Over</h2>
+        <p><strong>Final Score:</strong> <span id="finalScore"></span></p>
+        <p><strong>Level Reached:</strong> <span id="finalLevel"></span></p>
+        <button id="restartBtn1">Restart Game</button>
+        <button id="twitterBtn1">Share on Twitter</button>
+    </div>
+
+
+    <button id="menuBtn">☰</button> <!-- Menu Button -->
+
+    <script src="game.js"></script>
+</body>
+</html>

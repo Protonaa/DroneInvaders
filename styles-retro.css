@@ -1,0 +1,70 @@
+/* Retro-style landing page styles */
+
+body {
+    font-family: 'Press Start 2P', sans-serif; /* Retro theme font */
+    background: url('background.jpg') repeat; /* Single background image repeated */
+    background-size: cover;  /* Make sure the background covers the entire page */
+    background-position: 0 0;  /* Start the background position at the top-left */
+    color: white;
+    animation: moveBackground 30s linear infinite;  /* Animate the background */
+}
+
+/* Animation for moving the background */
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+p {
+    margin-top: 3%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically (if you want it vertically centered too) */
+
+    
+}
+
+.play-now {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: black;
+    background-color: lime;
+    border: 2px solid lime;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: none;
+    box-shadow: 0 0 10px lime;
+    transition: transform 0.2s ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.twitter-button {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: black;
+    background-color: lime;
+    border: 2px solid lime;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: none;
+    box-shadow: 0 0 10px lime;
+    transition: transform 0.2s ease-in-out;
+    font-family: 'Press Start 2P', cursive;
+}
