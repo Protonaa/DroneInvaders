@@ -40,6 +40,23 @@ p {
     
 }
 
+.play-audio {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.play-audio.hidden {
+    display: none;
+}
+
+audio {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 30;
+}
+
 .play-now {
     font-size: 1.5rem;
     padding: 10px 20px;
