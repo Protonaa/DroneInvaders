@@ -13,6 +13,8 @@ canvas {
     left: 0;
 }
 
+
+
 .hidden {
     display: none;
 }
@@ -91,4 +93,22 @@ canvas {
 
 #endScreen button:hover {
     background-color: #555;
+}
+
+
+.play-audio {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.play-audio.hidden {
+    display: none;
+}
+
+audio {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 30;
 }
