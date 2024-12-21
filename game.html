@@ -6,7 +6,15 @@
     <title>Space Invaders</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
+
+    <audio id="background-audio" autoplay controls loop>
+        <source src="bg.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <canvas id="gameCanvas"></canvas>
     
     <!-- Menu -->
@@ -22,7 +30,7 @@
             <li>Spacebar - Shoot</li>
         </ul>
         <button id="restartBtn">Restart Game</button>
-        <button id="twitterBtn">Share on Twitter</button>
+        <button id="twitterBtn">Share on X</button>
     </div>
 
     <!-- End Screen -->
@@ -31,7 +39,7 @@
         <p><strong>Final Score:</strong> <span id="finalScore"></span></p>
         <p><strong>Level Reached:</strong> <span id="finalLevel"></span></p>
         <button id="restartBtn1">Restart Game</button>
-        <button id="twitterBtn1">Share on Twitter</button>
+        <button id="twitterBtn1">Share on X</button>
     </div>
 
 
