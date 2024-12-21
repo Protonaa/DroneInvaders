@@ -307,7 +307,7 @@ function restartGame() {
 
 // Share on Twitter
 function shareOnTwitter() {
-    const tweet = `I scored ${score} in Space Invaders! Can you beat my score? #SpaceInvaders`;
+    const tweet = `I scored ${score} in Drone Invaders! Can you beat my score? @invaders56940 CA:----------------------------`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(tweet)}`, '_blank');
 }
 
