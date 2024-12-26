@@ -14,7 +14,7 @@ playerImg.src = 'spaceship.png';
 
 // Load alien images
 const alienImages = [];
-for (let i = 1; i <= 6; i++) {
+for (let i = 6; i <= 6; i++) {
     const img = new Image();
     img.src = `alien${i}.png`; // Assuming filenames are alien1.png, alien2.png, etc.
     alienImages.push(img);
